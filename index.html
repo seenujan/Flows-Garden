@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flows Garden — The Living Manuscript</title>
+  <meta name="description" content="Flows Garden is a premium editorial gardening experience. Cultivate the wild with our masterclass workshops, featured flora, and community of passionate growers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-logo">Flows Garden</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" id="link-about">About</a></li>
+        <li><a href="#philosophy" id="link-philosophy">Gallery</a></li>
+        <li><a href="#flora" id="link-flora">Flora</a></li>
+        <li><a href="#workshop" id="link-workshop">Workshops</a></li>
+      </ul>
+      <a href="#workshop" class="btn btn-primary-dark" id="btn-start-growing">Join community</a>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#philosophy">Gallery</a>
+      <a href="#flora">Flora</a>
+      <a href="#workshop">Workshops</a>
+      <a href="#workshop" class="btn btn-primary">Join community →</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="hero">
+      <div class="hero-inner">
+
+        <!-- Left: text -->
+        <div class="hero-text">
+          <p class="hero-eyebrow" id="hero-eyebrow">- ESTABLISHED 2024</p>
+          <h1 class="hero-headline" id="hero-headline">
+            Cultivating<br />the<em> Wild</em>
+          </h1>
+          <p class="hero-body" id="hero-body">
+            Bridging the gap between concrete landscapes and<br />
+            thriving ecosystems. We design living journals through<br />
+            urban permaculture and community education.
+          </p>
+          <div class="hero-btns">
+            <a href="#philosophy" class="btn btn-primary-dark" id="btn-explore">Explore the garden</a>
+            <a href="#philosophy" class="btn btn-outline" id="btn-processes">Our Processes →</a>
+          </div>
+        </div>
+
+        <!-- Right: images -->
+        <div class="hero-images" id="hero-images">
+          <div class="hero-img-wrap hero-img-a">
+            <img src="images/hero-main.jpg" alt="Lush garden path in golden hour" id="hero-img-main" />
+          </div>
+          <div class="hero-img-wrap hero-img-b">
+            <img src="images/hero-secondary.jpg" alt="Hands holding rich garden soil" id="hero-img-secondary" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PHILOSOPHY BLOCK
+    ═══════════════════════════════════════════ -->
+    <section id="philosophy" class="philosophy">
+      <div class="philosophy-inner">
+
+        <!-- Left: quote + bullets -->
+        <div class="philosophy-text">
+          <h2 class="philosophy-quote" id="philosophy-quote">
+            Urban biodiversity is <br>not a luxury, but a <br>necessity for the soul.
+          </h2>
+          <ul class="philosophy-list">
+            <li id="phil-item-1">
+              <span class="phil-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 3C14 3 6 8 6 15C6 19.418 9.582 23 14 23C18.418 23 22 19.418 22 15C22 8 14 3 14 3Z" stroke="#711e0e" stroke-width="1.6" fill="none"/>
+                  <path d="M14 23V14M14 14C14 14 10 11 8 8M14 14C14 14 18 11 20 8" stroke="#711e0e" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Restorative Design</strong>
+                <p>We transform forgotten urban corners into resilient micro-habitats that support local pollinators and native flora.</p>
+              </div>
+            </li>
+            <li id="phil-item-2">
+              <span class="phil-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 11L14 7L21 11V18C21 18 18 21 14 22C10 21 7 18 7 18V11Z" stroke="#711e0e" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+                  <path d="M14 12V17M11.5 14.5H16.5" stroke="#711e0e" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Shared Knowledge</strong>
+                <p>Education is the root of our garden. We host weekly workshops to demystify permaculture for city dwellers.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right: 2x2 image grid -->
+        <div class="philosophy-images" id="philosophy-images">
+          <div class="phil-grid">
+            <div class="phil-grid-img" id="phil-img-1">
+              <img src="images/philosophy-ivy.jpg" alt="Dense green ivy leaves" />
+            </div>
+            <div class="phil-grid-img" id="phil-img-2">
+              <img src="images/philosophy-pots.jpg" alt="Terracotta garden pots" />
+            </div>
+            <div class="phil-grid-img" id="phil-img-3">
+              <img src="images/philosophy-flowers.jpg" alt="Purple wildflowers close-up" />
+            </div>
+            <div class="phil-grid-img" id="phil-img-4">
+              <img src="images/philosophy-community.jpg" alt="Community garden workshop participants" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         FEATURED FLORA
+    ═══════════════════════════════════════════ -->
+    <section id="flora" class="flora">
+      <div class="flora-header">
+        <div class="flora-header-left">
+          <h2 class="section-title" id="flora-title">Featured Flora</h2>
+          <p class="flora-subtitle" id="flora-subtitle">
+            A curated selection of the resilient species currently thriving in our<br />
+           community sanctuaries.
+          </p>
+        </div>
+        <div class="flora-nav" id="flora-nav">
+          <button class="flora-nav-btn" id="flora-prev" aria-label="Previous">&#8592;</button>
+          <button class="flora-nav-btn" id="flora-next" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+
+      <div class="flora-track-wrap">
+        <div class="flora-track" id="flora-track">
+
+          <article class="flora-card" id="flora-card-1">
+            <div class="flora-card-img-wrap">
+              <img src="images/flora-bottlebrush.jpg" alt="Crimson Bottlebrush" />
+              <span class="flora-badge flora-badge-native">NATIVE</span>
+            </div>
+            <div class="flora-card-body">
+              <h3 class="flora-card-name">Crimson Bottlebrush</h3>
+              <p class="flora-card-latin">Callistemon citrinus</p>
+              <p class="flora-card-desc">A resilient shrub known for its architectural blooms that provide essential nectar for native honeyeaters.</p>
+            </div>
+          </article>
+
+          <article class="flora-card" id="flora-card-2">
+            <div class="flora-card-img-wrap">
+              <img src="images/flora-agave.jpg" alt="Blue Glow Agave" />
+              <span class="flora-badge flora-badge-rare">RESILIENT</span>
+            </div>
+            <div class="flora-card-body">
+              <h3 class="flora-card-name">Blue Glow Agave</h3>
+              <p class="flora-card-latin">Agave 'Blue Glow'</p>
+              <p class="flora-card-desc">Perfect for urban heat islands, this succulent offers a striking silhouette with minimal water requirements.</p>
+            </div>
+          </article>
+
+          <article class="flora-card" id="flora-card-3">
+            <div class="flora-card-img-wrap">
+              <img src="images/flora-fern.jpg" alt="Silver Lady Fern" />
+              <span class="flora-badge flora-badge-popular">FOUNDATION</span>
+            </div>
+            <div class="flora-card-body">
+              <h3 class="flora-card-name">Silver Lady Fern</h3>
+              <p class="flora-card-latin">Blechnum gibbum</p>
+              <p class="flora-card-desc">Bringing a lush, prehistoric feel to shaded balconies and indoor-outdoor transition spaces.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         WORKSHOP MASTERCLASS CTA
+    ═══════════════════════════════════════════ -->
+    <section id="workshop" class="workshop">
+      <div class="workshop-inner">
+        <p class="workshop-eyebrow" id="workshop-eyebrow">HANDS-ON LEARNING</p>
+        <h2 class="workshop-headline" id="workshop-headline">
+          Grow your own sanctuary with our masterclass workshops.
+        </h2>
+        <div class="workshop-btns" id="workshop-btns">
+          <a href="#" class="btn btn-primary" id="btn-book">View Summer Schedule</a>
+          <a href="#" class="btn btn-workshop-ghost" id="btn-gift">Gift a Workshop</a>
+        </div>
+        <div class="workshop-stats" id="workshop-stats">
+          <div class="stat-item">
+            <span class="stat-number">12+</span>
+            <span class="stat-label">Monthly Events</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-number">2.4k</span>
+            <span class="stat-label">Students Taught</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-number">15</span>
+            <span class="stat-label">Urban Sites</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Flows Garden</p>
+        <p class="footer-tagline">Cultivating resilient urban ecosystems<br />through education and organic design.</p>
+      </div>
+      <nav class="footer-links-simple">
+        <a href="#">Sustainability</a>
+        <a href="#">Contact</a>
+        <a href="#">Journal</a>
+        <a href="#">Privacy</a>
+      </nav>
+      <button class="footer-share" aria-label="Share">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+      </button>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 FLOWS GARDEN — CULTIVATING THE WILD</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
